@@ -26,7 +26,7 @@ int main(){
             }
         }
         cout<<endl;
-        start=start-rowcounter-row-1;
+        start=start-(rowcounter-row-1);
 
     }
 }
