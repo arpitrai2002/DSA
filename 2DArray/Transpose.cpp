@@ -5,11 +5,15 @@ using namespace std;
 vector<vector<int>> trpanspose(vector<vector<int>>& arr){
     int row=arr.size();
     int col=arr[0].size();
-    vector<vector<int>> ans(col,vector<int>(row,0));
+    // vector<vector<int>> ans(col,vector<int>(row,0));
+    vector<vector<int>> ans;
     for(int i=0;i<col;i++){
+        vector<int> temp;
         for(int j=0;j<row;j++){
-            ans[i][j]=arr[j][i];
+            // ans[i][j]==arr[j][i];
+            temp.push_back(arr[j][i]);
         }
+        ans.push_back(temp);
     }
     return ans;
 }
