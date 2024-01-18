@@ -22,10 +22,6 @@ int main(){
     vector<int> arr{1,2,2,2,2,2,2,5,6,6,6,6,8};
     int value=6;
     cout<<LastOcc(arr,value);
- 
- 
- 
- 
- 
+
  return 0;
 }
