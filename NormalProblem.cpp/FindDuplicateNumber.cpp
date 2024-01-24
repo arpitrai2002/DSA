@@ -12,7 +12,5 @@ int Duplicate(vector<int> arr){
 int main(){
     vector<int> arr{1,3,4,2,4};
     cout<<Duplicate(arr)<<endl;
- 
- 
  return 0;
 }
