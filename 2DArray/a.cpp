@@ -44,7 +44,7 @@ vector<int> SpriralPrint(vector<vector<int>> arr){
 int main(){
     vector<vector<int>> ans{{1,2,3},{4,5,6},{7,8,9}};
     vector<int> arr=SpriralPrint(ans);
-    for(int i=0;i<ans.size();i++){
+    for(int i=0;i<arr.size();i++){
         cout<<arr[i]<<" ";
     }
     cout<<endl;
