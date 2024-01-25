@@ -27,7 +27,5 @@ int main(){
     vector<int> arr{2,1,1,5,3};
     vector<int> ans=Element(arr);
     cout<<ans[0]<<" "<<ans[1]<<endl; 
- 
- 
  return 0;
 }
