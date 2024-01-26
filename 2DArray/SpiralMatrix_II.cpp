@@ -61,3 +61,35 @@ int main(){
  
  return 0;
 }
+
+class Solution {
+public:
+    int sqr(int a){
+    int l=0;
+    int h=a;
+    long mid=(l+h)>>1;
+    int ans=0;
+    while(l<=h){
+        if(mid*mid==a){
+            ans=mid;
+            return ans;
+        }
+        else if(mid*mid<a){
+            l=mid+1;
+            ans=mid;
+            
+        }
+        else{
+            h=mid-1;
+           
+
+        }
+        mid=(l+h)>>1;
+    }
+    return ans;
+}
+    int mySqrt(int x) {
+        return sqr(x);
+        
+    }
+};
