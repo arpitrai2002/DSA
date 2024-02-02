@@ -7,6 +7,7 @@ int main(){
     vector<int> a2{9,8,5};
     INA A;
     int b;
+    int v;
  
  
  
