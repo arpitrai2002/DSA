@@ -1,6 +1,10 @@
 #include<iostream>
 #include<vector> 
 using namespace std;
+
+int sum(vector<int> a,vector<int> b){
+    
+}
  
 int main(){
     vector<int> a1{9,8,5};
