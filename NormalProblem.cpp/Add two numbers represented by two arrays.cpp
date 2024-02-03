@@ -8,6 +8,7 @@ int main(){
     INA A;
     int b;
     int v;
+    int c;
  
  
  
