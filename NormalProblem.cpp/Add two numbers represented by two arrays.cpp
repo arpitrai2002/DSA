@@ -3,7 +3,7 @@
 using namespace std;
 
 int sum(vector<int> a,vector<int> b){
-    
+    int n=a.size();
 }
  
 int main(){
