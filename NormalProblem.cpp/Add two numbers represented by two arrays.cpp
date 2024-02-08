@@ -15,7 +15,6 @@ int main(){
     int A;
     int b;
     int v;
-    int cJ;
  
  
  
