@@ -42,8 +42,5 @@ string Reoganise(string a){
 int main(){
     string a="baabb";
     cout<<Reoganise(a)<<endl;
- 
- 
- 
  return 0;
 }
