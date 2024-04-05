@@ -5,6 +5,9 @@ int main(){
  
  
  int a;
+
+ int c;
+ int d;
  
  
  return 0;
