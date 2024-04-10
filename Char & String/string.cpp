@@ -9,6 +9,8 @@ int main(){
  int c;
  int d;
  uunb ukh
+ int al
+ k j int ka;
  
  
  return 0;
