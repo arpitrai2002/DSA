@@ -11,7 +11,8 @@ int main(){
  uunb ukh
  int al
  k j int ka;
- 
+ int an
+ hb 
  
  return 0;
 }
