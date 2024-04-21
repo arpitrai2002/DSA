@@ -1,26 +1,29 @@
 #include<iostream>
-#include<vector>
 using namespace std;
  
 int main(){
-    vector<int> a;
-    a.push_back(1);
-    a.push_back(2);
-    a.push_back(3);
-    a.push_back(4);
-    a.push_back(5);
-    for(int i=0;i<a.size();i++){
-        cout<<a[i];
-    }
-    cout<<endl;
-    a.pop_back();
-    cout<<a.size()<<endl;
-    cout<<a.empty();
+    int a=5;
+    int* ptr=&a;
+    cout<<a<<endl;
+    cout<<ptr<<endl;
+    cout<<&a<<endl;
+    cout<<*ptr<<endl;
+    cout<<ptr+1<<endl;
+    cout<<*ptr*2<<endl;
 
-    vector<int> b(5,2);
-    for(int i=0;i<b.size();i++){
-        cout<<b[i];
-    }
+    char b='b';
+    char* p=&b;
 
+    double c=1.23;
+    double* q=&c;
+    cout<<sizeof(ptr)<<endl;
+    cout<<sizeof(p)<<endl;
+    cout<<sizeof(q)<<endl;
+
+
+ 
+ 
+ 
+ 
  return 0;
 }
