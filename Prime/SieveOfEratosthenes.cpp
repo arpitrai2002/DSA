@@ -7,7 +7,7 @@ int SoE(int n){
     vector<bool> arr(n,true);
     arr[0]=arr[1]=false;
     int c=0;
-    for(int i=2;i<n;i++){
+    for(int i=2;i<=n;i++){
         if(arr[i]){
             c++;
             int j=i*2;
