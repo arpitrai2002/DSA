@@ -11,7 +11,7 @@ int SoE(int n){
         if(arr[i]){
             c++;
             int j=i*2;
-            while(j<n){
+            while(j<=n){
                 arr[j]=false;
                 j+=i;
             }
