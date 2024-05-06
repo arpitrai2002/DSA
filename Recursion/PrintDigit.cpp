@@ -15,10 +15,5 @@ void PrintDigit(int& n){
 int main(){
     int n=786;
     PrintDigit(n);
- 
- 
- 
- 
- 
  return 0;
 }
