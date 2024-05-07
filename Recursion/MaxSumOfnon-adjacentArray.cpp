@@ -22,7 +22,7 @@ void sum(vector<int>& a,int s,int& n,int i,int& maxi){
 }
  
 int main(){
-    vector<int> a{2,4,13,9};
+    vector<int> a{2,7,9,3,1};
     int n=a.size();
     int s=0;
     int i=0;
