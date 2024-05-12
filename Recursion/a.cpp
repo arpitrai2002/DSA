@@ -9,6 +9,8 @@ int main(){
  ind a;
 
  int ab;int d;
+ int c;
+ int a;
  
  return 0;
 }
