@@ -12,6 +12,8 @@ int main(){
  int c;
  int a;
  int c;
+ int d;
+ 
  
  return 0;
 }
