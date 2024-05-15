@@ -13,7 +13,8 @@ int main(){
  int a;
  int c;
  int d;
- 
+ int c;
+ int s;
  
  return 0;
 }
