@@ -12,6 +12,7 @@ int main(){
  int c;
  int a;
  int c;
+ int b;
  int d;
  int c;
  int s;
