@@ -25,7 +25,7 @@ void lastoccRtL(string& a,char& x,int i,int & ans){
 }
 int main(){
     string a="abcddedgd";
-    char x='d';
+    char x='a';
     int n=a.size();
     int i=0;
     int ans=-1;
