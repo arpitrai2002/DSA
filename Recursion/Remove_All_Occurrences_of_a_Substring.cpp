@@ -30,6 +30,7 @@ int main(){
     string part="abc";
     cout<<fs(a,part)<<endl;
     findstring(a,part);
+    
     cout<<a;
 
  
