@@ -24,7 +24,6 @@ string intTwoWord(int n){
                 c=" " + intTwoWord(n%at.first);
             }
             return (a+b+c);
-        
         }
     }
 }
