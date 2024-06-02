@@ -31,7 +31,7 @@ string intTwoWord(int n){
 
 
 int main(){
-    int n=1234567;
+    int n=12345678;
     string ans=intTwoWord(n);
     cout<<ans;
  
