@@ -30,7 +30,7 @@ bool magicNumber(string& a,int ai,string& b,int bi){
  
 int main(){
     string a="abcdef";
-    string b="ab??ef";
+    string b="ab??ief";
     int ai=0;
     int bi=0;
     cout<<magicNumber(a,ai,b,bi);
