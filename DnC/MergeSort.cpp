@@ -52,6 +52,7 @@ int main(){
     for(auto mt:a){
         cout<<mt<<" ";
     }
+    cout<<endl;
  
  return 0;
 }
