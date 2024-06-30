@@ -49,6 +49,7 @@ void MergeSort(int a[],int low,int high){
 int main(){
     int a[]={1,5,3,4,9,7,2};
     MergeSort(a,0,6);
+    []
     for(auto mt:a){
         cout<<mt<<" ";
     }
