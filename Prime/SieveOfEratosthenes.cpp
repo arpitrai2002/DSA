@@ -17,6 +17,7 @@ int SoE(int n){
             }
         }
     }
+    
     return c;
     
 }

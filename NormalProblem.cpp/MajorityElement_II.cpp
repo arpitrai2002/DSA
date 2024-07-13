@@ -45,6 +45,7 @@ vector<int> MajorityElement(vector<int> arr){
     }
 
  
+ 
 int main(){
     vector<int> arr{6,6,4,4,6,4,4,6,4,2,4,2,4,6,6};
     vector<int> ans=MajorityElement(arr);
