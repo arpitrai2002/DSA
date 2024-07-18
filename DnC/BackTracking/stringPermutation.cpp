@@ -22,10 +22,5 @@ int main(){
     string a="abc";
     int i=0;
     StringPermutation(a,i);
- 
- 
- 
- 
- 
  return 0;
 }
