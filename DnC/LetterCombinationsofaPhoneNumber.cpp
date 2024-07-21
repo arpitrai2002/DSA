@@ -28,7 +28,7 @@ int main(){
     m[5]="jkl";
     m[6]="mno";
     m[7]="pqrs";
-    m[8]="tu";
+    m[8]="tuv";
     m[9]="wxyz";
     
     string digits;

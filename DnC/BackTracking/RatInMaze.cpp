@@ -45,7 +45,11 @@ void Maze(int arr[][3],int row,int col,int x,int y,vector<vector<bool>>& mark,ve
 }
  
 int main(){
-     int arr[3][3]={{1,0,0},{1,1,0},{1,1,1}};
+     int arr[3][3]={{1,0,0},{1,1,0},{1,1,0}};
+     if(arr[0][0]==0){
+        cout<<"No Path Exist"<<endl;
+        return 0;
+     }
      int row=3;
      int col=3;
      vector<vector<bool>> mark(3,vector<bool>(3,false));
@@ -54,9 +58,16 @@ int main(){
      string dir="";
      Maze(arr,row,col,0,0,mark,path,dir);
 
+     if(path.size()==0){
+        cout<<"No Path Exist"<<endl;
+        return 0;
+     }
+
      for(auto i:path){
         cout<<i<<endl;
      }
  
  return 0;
+
+ 
 }
