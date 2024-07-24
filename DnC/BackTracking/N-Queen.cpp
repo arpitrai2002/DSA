@@ -65,6 +65,8 @@ int main(){
     int n=9;
     vector<vector<char>> board(n,vector<char>(n,'-'));
     int col=0;
+
+    
     Queen(board,n,col);
  
  
