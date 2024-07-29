@@ -62,7 +62,7 @@ void Queen(vector<vector<char>>& board,int n,int col){
 }
 
 int main(){
-    int n=9;
+    int n=4;
     vector<vector<char>> board(n,vector<char>(n,'-'));
     int col=0;
 
