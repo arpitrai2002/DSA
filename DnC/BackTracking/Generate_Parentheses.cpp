@@ -17,15 +17,18 @@ void Generate_Parentheses(vector<string> &a,int open,int close,string output){
 
     if(close>open){
         output.push_back(')');
-        Generate_Parentheses(a,open-1,close,output);
+        Generate_Parentheses(a,open,close-1,output);
         output.pop_back();
     }
 }
 int main(){
-    int n;
-    cin>>n;
+    int n=3;
     vector<string> a;
     Generate_Parentheses(a,n,n,"");
+    for(auto i:a){
+        cout<<i<<" ";
+    }
+    cout<<endl;
  
  return 0;
 }
