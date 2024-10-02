@@ -3,7 +3,7 @@
 using namespace std;
 
 void EnterNumber(stack<int> &s,int target){
-    if(s.top()>=target){
+    if(s.empty() || s.top()<=target){
         s.push(target);
         return;
     }
@@ -13,17 +13,26 @@ void EnterNumber(stack<int> &s,int target){
     EnterNumber(s,target);
     s.push(temp);
 }
+
+void sortStack(stack<int>& s){
+    if(s.empty()){
+        return;
+    }
+    int temp=s.top();
+    s.pop();
+    sortStack(s);
+    EnterNumber(s,temp);
+}
  
 int main(){
     stack<int> s;
-    s.push(10); 
-    s.push(20); 
     s.push(30); 
+    s.push(40); 
     s.push(50); 
-    s.push(60); 
+    s.push(4); 
+    s.push(10); 
 
-    EnterNumber(s,40);
-
+    sortStack(s);
     cout<<"Printing"<<endl;
     while(!s.empty())
     {
@@ -32,9 +41,9 @@ int main(){
         s.pop();
     }
     cout<<endl;
-    
-    
-
+ 
+ 
+ 
  
  return 0;
 }
